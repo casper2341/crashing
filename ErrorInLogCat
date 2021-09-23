@@ -1,0 +1,16 @@
+E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.timeepass.project.letsconnect, PID: 14624
+    java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+        at com.timeepass.project.letsconnect.Fragments.HomeFragment.showDialog(HomeFragment.java:250)
+        at com.timeepass.project.letsconnect.Fragments.HomeFragment$1$1.onClick(HomeFragment.java:168)
+        at android.view.View.performClick(View.java:7256)
+        at android.view.View.performClickInternal(View.java:7218)
+        at android.view.View.access$3800(View.java:824)
+        at android.view.View$PerformClick.run(View.java:27719)
+        at android.os.Handler.handleCallback(Handler.java:883)
+        at android.os.Handler.dispatchMessage(Handler.java:100)
+        at android.os.Looper.loop(Looper.java:228)
+        at android.app.ActivityThread.main(ActivityThread.java:7782)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:981)
